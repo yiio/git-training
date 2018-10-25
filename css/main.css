@@ -35,6 +35,10 @@ body {
   background: #07528F;
 }
 
+.service.hrogmap {
+  background: #008774;
+}
+
 .service .service__mock {
   width: 50%;
   padding: 0 80px;
