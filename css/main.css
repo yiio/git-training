@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Helvetica, arial, sans-serif;
+  color: #252627;
+  font-size: 1rem;
+}
+
+.service {
+  display: flex;
+  width: 100%;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.service.hroglist {
+  background: #07528F;
+}
+
+.service .service__mock {
+  width: 50%;
+  padding: 0 80px;
+}
+
+.service .service__mock .mock-img {
+  width: 100%;
+  height: auto;
+}
+
+.service .service__text {
+  width: 50%;
+}
+
+.service .service__text .description {
+  width: 600px;
+}
+
+.service .service__text .description .description__catchphrase {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.7;
+  letter-spacing: 1.5px;
+  margin: 16px 0;
+}
